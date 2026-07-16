@@ -1,3 +1,3 @@
-# Performance measurement
+# 性能测量
 
-No performance number is claimed yet. Record browser version, device, node count, drag/zoom procedure, React Profiler commits and unrelated node renders before updating this document or a resume.
+当前不声明任何性能数字。更新本文档或简历前，应记录浏览器版本、设备、节点数量、拖动/缩放步骤、React Profiler 提交次数和无关节点渲染情况。

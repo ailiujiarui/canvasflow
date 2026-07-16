@@ -1,9 +1,9 @@
-# Review
+# 代码审查记录
 
 ## 2026-07-16
 
-- Build passes with TypeScript strict checking and Vite production bundling.
-- Graph mutations preserve node IDs and remove connected edges with deleted nodes.
-- Validation errors are actionable and tied to selected nodes where possible.
-- Delete is disabled for the Start node; run is blocked by validation errors.
-- Remaining scope: Fastify/SQLite persistence, version-conflict API, Playwright coverage, and richer port compatibility rules.
+- TypeScript 严格检查与 Vite 生产构建通过。
+- 图变更保留节点 ID，删除节点时同步删除关联连线。
+- 校验错误可操作，并尽可能关联到具体节点。
+- 开始节点不可删除；存在校验错误时禁止运行。
+- 待完成：Fastify/SQLite 持久化、版本冲突接口、Playwright 覆盖和更完整的端口兼容规则。
